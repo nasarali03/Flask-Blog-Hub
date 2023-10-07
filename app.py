@@ -155,11 +155,11 @@ def contact():
         email = request.form.get("email")
         phone = request.form.get("phone")
         msg = request.form.get("message")
-        # user = Contacts(
-        #     name=name, phone_num=phone, message=msg, date=datetime.now(), email=email
-        # )
-        # db.session.add(user)
-        # db.session.commit()
+        user = Contacts(
+            name=name, phone_num=phone, message=msg, date=datetime.now(), email=email
+        )
+        db.session.add(user)
+        db.session.commit()
         msg_title=f"New Message from {name}"
         
         message=Message(msg_title,recipients=["nasarali1805@gmail.com"])
