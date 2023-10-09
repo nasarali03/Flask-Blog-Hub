@@ -12,8 +12,72 @@ In this streamlined environment, authors can easily create, edit, and publish th
 - ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 - ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white)
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+For database connection please read the documentation accordingly.
+<br>
+
+## Installation
+
+To run the blogging website locally, you'll need to create a virtual environment and install the necessary Python modules. Follow these steps to get started:
+
+1. Clone this repository to your local machine using Git:
+
+   ```sh
+   git clone https://github.com/your-username/my-blogging-website.git
+   ```
+
+2. Change directory to the project folder:
+
+   ```sh
+   cd my-blogging-website
+   ```
+
+3. Create a virtual environment (optional but recommended):
+
+- On macOS and Linux:
+
+  ```
+  python3 -m venv venv
+  ```
+
+- On Windows:
+
+  ```
+  python -m venv venv
+  ```
+
+This command will create a virtual environment named "venv" in your project directory.
+
+4. Activate the virtual environment:
+
+- On macOS and Linux:
+
+  ```
+  source venv/bin/activate
+  ```
+
+- On Windows:
+
+  ```
+  venv\Scripts\activate
+  ```
+
+5. Install the required Python modules:
+
+   ```sh
+    pip install -r requirements.txt
+   ```
+
+6. Start the development server:
+   ```sh
+   python app.py
+   ```
+
+The website should now be running locally. You can access it by opening a web browser and navigating to `http://localhost:5000`.
+
+Please replace `your-username` with your actual GitHub username or the repository URL as needed. Ensure that you have Python and Git installed on your system before following these steps.
+
+   <!-- MARKDOWN LINKS & IMAGES -->
+   <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
