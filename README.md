@@ -1,6 +1,6 @@
 ## Blog Hub
 
-![enter image description here](/static/img/blog_hub.jpg)
+![enter image description here](/static/img/blog_hub.png)
 
 Our blogging website project utilizes a Bootstrap template for the front-end, providing a sleek and responsive user interface. On the back-end, we've employed Flask, a Python web framework known for its simplicity and flexibility. For better data storage sql is use as database. This combination allows for efficient development and maintenance, ensuring a smooth user experience.
 
