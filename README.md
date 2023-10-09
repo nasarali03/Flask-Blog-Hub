@@ -72,7 +72,7 @@ This command will create a virtual environment named "venv" in your project dire
    python app.py
    ```
 
-The website should now be running locally. You can access it by opening a web browser and navigating to `http://localhost:5000`.
+The website should now be running locally. You can access it by opening a web browser and navigating to `http://127.0.0.1:5000`.
 
 Please replace `your-username` with your actual GitHub username or the repository URL as needed. Ensure that you have Python and Git installed on your system before following these steps.
 
